@@ -12,13 +12,17 @@
     float:right;
     border:1px solid white;
 }
-#startb,#status
+.big_image
+{
+    width:100%;
+}
+#start,#status
 {
     font-size:22px;
 }
 h4
 {
-    background-color:orange;
+    background-color:red;
     line-height:2;
     margin-bottom:0;
 }
@@ -31,7 +35,10 @@ h4
     display:inline-block;
     width:45%;
 }
-canvas
+video
 {
-
+    background:url("game_console.png");
+    background-size: cover;
+    background-position:center;
+    padding:25px;
 }
